@@ -183,7 +183,7 @@ else:
 ssh = SSHManager(address='3.136.45.48', username='centos', password='', timeout=120,
                  log_path=r'tmp/Centos.log', default_prompt='#|\$', config_prompt='#',
                  config_command='', error_regex='', command_list=[''],
-                 pem_file="/Users/evettetelyas/Downloads/NewKey.pem")
+                 pem_file="/Home/tylor/Documents/tylor_key.pem")
 
 # print ssh.send_command('ls /tmp')
 
